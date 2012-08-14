@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="pathToZbar" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Program Files (x86)\ZBar\bin\zbarcam.exexx</Value>
+      <Value Profile="(Default)">C:\Program Files (x86)\ZBar\bin\zbarcam.exe</Value>
     </Setting>
   </Settings>
 </SettingsFile>

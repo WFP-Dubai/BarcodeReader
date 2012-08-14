@@ -41,7 +41,7 @@ namespace BarcodeReader
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
                 startInfo.FileName = TheApp;
-                startInfo.Arguments = "--raw";
+                startInfo.Arguments = "--raw  -Sdisable -Sqrcode.enable";
                 startInfo.RedirectStandardOutput = true;
                 startInfo.UseShellExecute = false;
                 startInfo.CreateNoWindow = false;
